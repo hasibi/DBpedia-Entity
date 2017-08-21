@@ -1,5 +1,3 @@
-# DBpedia-Entity
-
 DBpedia-Entity is a standard test collection for entity search over the DBpedia knowledge base. It is meant for evaluating retrieval systems that return a ranked list of entities (DBpedia URIs) in response to a free text user query.
 
 The first version of the collection (*DBpedia-Entity v1*) was released in 2013, based on DBpedia v3.7 [1].  It was created by assembling search queries from a number of entity-oriented benchmarking campaigns and mapping relevant results to DBpedia.
@@ -56,7 +54,120 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 - `/v1`: The runs related to **DBpedia-Entity v1**, reported in Table 2 of the paper [2].
 - `/v2`: The runs related to **DBpedia-Entity v2**, reported in the table below.  The evaluation metric is NDCG (Normalized Discounted Cumulative Gain) at ranks 10 and 100.  New retrieval systems, evaluated using DBpedia-Entity v2, are supposed to be compared against these results.
 
-![alt text](https://github.com/iai-group/DBpedia-Entity/blob/master/results_table.png)
+<table>
+  <tr>
+    <td rowspan="2">Model</td>
+    <td colspan="2">SemSearch ES</td>
+    <td colspan="2">INEX-LD</td>
+    <td colspan="2">ListSearch</td>
+    <td colspan="2">QALD-2</td>
+    <td colspan="2">Total</td>
+  </tr>
+  <tr >
+    <td >@10</td><td >@100</td>
+    <td >@10</td><td >@100</td>
+    <td >@10</td><td >@100</td>
+    <td >@10</td><td >@100</td>
+    <td >@10</td><td >@100</td>
+  </tr>
+  <tr>
+	<td >BM25</td >
+	<td >0.2497</td><td >0.4110</td>
+	<td >0.1828</td><td >0.3612</td>
+	<td >0.0627</td><td >0.3302</td>
+	<td >0.2751</td><td >0.3366</td>
+	<td >0.2558</td><td >0.3582</td>
+  </tr>
+  <tr>
+	<td >PRMS</td >
+	<td >0.5340</td><td >0.6108</td>
+	<td >0.3590</td><td >0.4295</td>
+	<td >0.3684</td><td >0.4436</td>
+	<td >0.3151</td><td >0.4026</td>
+	<td >0.3905</td><td >0.4688</td>
+  </tr>
+  <tr>
+	<td >MLM-all</td >
+	<td >0.5528</td><td >0.6247</td>
+	<td >0.3752</td><td >0.4493</td>
+	<td >0.3712</td><td >0.4577</td>
+	<td >0.3249</td><td >0.4208</td>
+	<td >0.4021</td><td >0.4852</td>
+  </tr>
+  <tr>
+	<td >LM</td >
+	<td >0.5555</td><td >0.6475</td>
+	<td >0.3999</td><td >0.4745</td>
+	<td >0.3925</td><td >0.4723</td>
+	<td >0.3412</td><td >0.4338</td>
+	<td >0.4182</td><td >0.5036</td>
+  </tr>
+  <tr>
+  <td >SDM</td >
+	<td >0.5535</td><td >0.6672</td>
+	<td >0.4030</td><td >0.4911 </td>
+	<td >0.3961</td><td >0.4900</td>
+	<td >0.3390</td><td >0.4274</td>
+	<td >0.4185</td><td >0.5143</td>
+  </tr>
+  <tr><td/></tr>
+  <tr>
+	<td >LM+ELR</td >
+	<td >0.5554</td><td >0.6469</td>
+	<td >0.4040</td><td >0.4816</td>
+	<td >0.3992</td><td >0.4845</td>
+	<td >0.3491</td><td >0.4383</td>
+	<td >0.4230</td><td >0.5093</td>
+  </tr>
+  <tr>
+	<td >SDM+ELR</td >
+	<td >0.5548</td><td >0.6680</td>
+	<td >0.4104</td><td >0.4988</td>
+	<td >0.4123</td><td >0.4992</td>
+	<td >0.3446</td><td >0.4363</td>
+	<td >0.4261</td><td >0.5211</td>
+  </tr>
+  <tr>
+	<td >MLM-CA</td >
+	<td >0.6247</td><td >0.6854</td>
+	<td >0.4029</td><td >0.4796</td>
+	<td >0.4021</td><td >0.4786</td>
+	<td >0.3365</td><td >0.4301</td>
+	<td >0.4365</td><td >0.5143</td>
+  </tr>
+  <tr>
+	<td >BM25-CA</td >
+	<td >0.5858</td><td >0.6883</td>
+	<td >0.4120</td><td >0.5050</td>
+	<td >0.4220</td><td >0.5142</td>
+	<td >0.3566</td><td >0.4426</td>
+	<td >0.4399</td><td >0.5329 </td>
+  </tr>
+  <tr>
+	<td >FSDM</td >
+	<td >0.6521</td><td >0.7220</td>
+	<td >0.4214</td><td >0.5043</td>
+	<td >0.4196</td><td >0.4952</td>
+	<td >0.3401</td><td >0.4358</td>
+	<td >0.4524</td><td >0.5342</td>
+  </tr>
+  <tr>
+	<td >BM25F-CA</td >
+	<td >0.6281</td><td >0.7200</td>
+	<td >0.4394</td><td >0.5296</td>
+	<td >0.4252</td><td >0.5106</td>
+	<td >0.3689</td><td >0.4614</td>
+	<td >0.4605</td><td >0.5505</td>
+  </tr>
+  <tr>
+	<td >FSDM+ELR</td >
+	<td >0.6563</td><td >0.7257</td>
+	<td >0.4354</td><td >0.5134</td>
+	<td >0.4220</td><td >0.4985</td>
+	<td >0.3468</td><td >0.4456</td>
+	<td >0.4590</td><td >0.5408</td>
+  </tr>
+</table>
 
 
 ## Related resources
