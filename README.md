@@ -155,6 +155,7 @@ The `runs` folder contains all the baseline runs related to this collection in T
 	<td >0.4590</td><td >0.5408</td>
   </tr>
   </tbody>
+</table>
 
 ## Citation
 
