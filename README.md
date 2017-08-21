@@ -56,12 +56,12 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 
 <table>
   <tr>
-    <td rowspan="2">Model</td>
-    <td colspan="2">SemSearch ES</td>
-    <td colspan="2">INEX-LD</td>
-    <td colspan="2">ListSearch</td>
-    <td colspan="2">QALD-2</td>
-    <td colspan="2">Total</td>
+    <td rowspan="2"><b>Model</b></td>
+    <td colspan="2"><b>SemSearch ES</b></td>
+    <td colspan="2"><b>INEX-LD</b></td>
+    <td colspan="2"><b>ListSearch</b></td>
+    <td colspan="2"><b>QALD-2</b></td>
+    <td colspan="2"><b>Total</b></td>
   </tr>
   <tr >
     <td >@10</td><td >@100</td>
@@ -71,7 +71,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
     <td >@10</td><td >@100</td>
   </tr>
   <tr>
-	<td >BM25</td >
+	<td ><b>BM25</b></td >
 	<td >0.2497</td><td >0.4110</td>
 	<td >0.1828</td><td >0.3612</td>
 	<td >0.0627</td><td >0.3302</td>
@@ -79,7 +79,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 	<td >0.2558</td><td >0.3582</td>
   </tr>
   <tr>
-	<td >PRMS</td >
+	<td ><b>PRMS</b></td >
 	<td >0.5340</td><td >0.6108</td>
 	<td >0.3590</td><td >0.4295</td>
 	<td >0.3684</td><td >0.4436</td>
@@ -87,7 +87,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 	<td >0.3905</td><td >0.4688</td>
   </tr>
   <tr>
-	<td >MLM-all</td >
+	<td ><b>MLM-all</b></td >
 	<td >0.5528</td><td >0.6247</td>
 	<td >0.3752</td><td >0.4493</td>
 	<td >0.3712</td><td >0.4577</td>
@@ -95,7 +95,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 	<td >0.4021</td><td >0.4852</td>
   </tr>
   <tr>
-	<td >LM</td >
+	<td ><b>LM</b></td >
 	<td >0.5555</td><td >0.6475</td>
 	<td >0.3999</td><td >0.4745</td>
 	<td >0.3925</td><td >0.4723</td>
@@ -103,7 +103,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 	<td >0.4182</td><td >0.5036</td>
   </tr>
   <tr>
-  <td >SDM</td >
+  <td ><b>SDM</b></td >
 	<td >0.5535</td><td >0.6672</td>
 	<td >0.4030</td><td >0.4911 </td>
 	<td >0.3961</td><td >0.4900</td>
@@ -112,7 +112,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
   </tr>
   <tr><td/></tr>
   <tr>
-	<td >LM+ELR</td >
+	<td ><b>LM+ELR</b></td >
 	<td >0.5554</td><td >0.6469</td>
 	<td >0.4040</td><td >0.4816</td>
 	<td >0.3992</td><td >0.4845</td>
@@ -120,7 +120,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 	<td >0.4230</td><td >0.5093</td>
   </tr>
   <tr>
-	<td >SDM+ELR</td >
+	<td ><b>SDM+ELR</b></td >
 	<td >0.5548</td><td >0.6680</td>
 	<td >0.4104</td><td >0.4988</td>
 	<td >0.4123</td><td >0.4992</td>
@@ -128,7 +128,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 	<td >0.4261</td><td >0.5211</td>
   </tr>
   <tr>
-	<td >MLM-CA</td >
+	<td ><b>MLM-CA</b></td >
 	<td >0.6247</td><td >0.6854</td>
 	<td >0.4029</td><td >0.4796</td>
 	<td >0.4021</td><td >0.4786</td>
@@ -136,7 +136,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 	<td >0.4365</td><td >0.5143</td>
   </tr>
   <tr>
-	<td >BM25-CA</td >
+	<td ><b>BM25-CA</b></td >
 	<td >0.5858</td><td >0.6883</td>
 	<td >0.4120</td><td >0.5050</td>
 	<td >0.4220</td><td >0.5142</td>
@@ -144,7 +144,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 	<td >0.4399</td><td >0.5329 </td>
   </tr>
   <tr>
-	<td >FSDM</td >
+	<td ><b>FSDM</b></td >
 	<td >0.6521</td><td >0.7220</td>
 	<td >0.4214</td><td >0.5043</td>
 	<td >0.4196</td><td >0.4952</td>
@@ -152,7 +152,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 	<td >0.4524</td><td >0.5342</td>
   </tr>
   <tr>
-	<td >BM25F-CA</td >
+	<td ><b>BM25F-CA</b></td >
 	<td >0.6281</td><td >0.7200</td>
 	<td >0.4394</td><td >0.5296</td>
 	<td >0.4252</td><td >0.5106</td>
@@ -160,7 +160,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 	<td >0.4605</td><td >0.5505</td>
   </tr>
   <tr>
-	<td >FSDM+ELR</td >
+	<td ><b>FSDM+ELR</b></td >
 	<td >0.6563</td><td >0.7257</td>
 	<td >0.4354</td><td >0.5134</td>
 	<td >0.4220</td><td >0.4985</td>
