@@ -4,7 +4,7 @@ Publications
 A number of articles has been published based on the DBpedia-Entity collection. Below we list these articles:
 
 
-### Entity search task
+#### Entity search task:
 
 - Faegheh Hasibi, Krisztian Balog, and Svein Erik Bratsberg. 2016. *"Exploiting Entity Linking in Queries for Entity Retrieval"*, In proceedings of ACM SIGIR International Conference on the Theory of Information Retrieval (ICTIR ’16). 209-218.
 
@@ -21,7 +21,7 @@ Learning to Rank for Entity Search"*, In Proceedings of the 39th International A
 - Nikita Zhiltsov, Alexander Kotov, and Fedor Nikolaev. 2015. *"Fielded Sequential Dependence Model for Ad-Hoc Entity Retrieval in the Web of Data"*. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '15). 253–262. 
 
 
-### Other tasks
+#### Other tasks:
 
 - Rafael Glater, Rodrygo L.T. Santos, and Nivio Ziviani. 2017. *"Intent-Aware Semantic Query Annotation"*, In Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '17). 485-494.
 
