@@ -3,6 +3,12 @@
 
 @import "jekyll-theme-slate";
 
+.inner {
+  position: relative;
+  max-width: 740px;
+  padding: 20px 10px;
+  margin: 0 auto; }
+  
 #coll_banner {
   display: block;
   position: absolute;
