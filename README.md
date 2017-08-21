@@ -139,7 +139,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 	<td ><b>BM25-CA</b></td >
 	<td >0.5858</td><td >0.6883</td>
 	<td >0.4120</td><td >0.5050</td>
-	<td >0.4220</td><td >0.5142</td>
+	<td >0.4220</td><td ><b>0.5142</b></td>
 	<td >0.3566</td><td >0.4426</td>
 	<td >0.4399</td><td >0.5329 </td>
   </tr>
@@ -154,14 +154,14 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
   <tr>
 	<td ><b>BM25F-CA</b></td >
 	<td >0.6281</td><td >0.7200</td>
-	<td >0.4394</td><td >0.5296</td>
-	<td >0.4252</td><td >0.5106</td>
-	<td >0.3689</td><td >0.4614</td>
-	<td >0.4605</td><td >0.5505</td>
+	<td ><b>0.4394</b></td><td ><b>0.5296</b></td>
+	<td ><b>0.4252</b></td><td >0.5106</td>
+	<td ><b>0.3689</b></td><td ><b>0.4614</b></td>
+	<td ><b>0.4605</b></td><td ><b>0.5505</b></td>
   </tr>
   <tr>
 	<td ><b>FSDM+ELR</b></td >
-	<td >0.6563</td><td >0.7257</td>
+	<td ><b>0.6563</b></td><td ><b>0.7257</b></td>
 	<td >0.4354</td><td >0.5134</td>
 	<td >0.4220</td><td >0.4985</td>
 	<td >0.3468</td><td >0.4456</td>
