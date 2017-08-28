@@ -15,12 +15,7 @@ We require entities to have both a title and abstract (i.e., `rdfs:label` and `r
 
 The collection consists of a set of heterogeneous entity-bearing queries, assembled from various benchmarking campaigns (see the paper for details). Queries are categorized into four groups:
 
-| Category | Description | Examples |
-| --- | --- | --- |
-| `SemSearch_ES` | Named entity queries | "brooklyn bridge", "08 toyota tundra" |
-| `INEX-LD` | IR-style keyword queries | "electronic music genres" |
-| `QALD2` | Natural language questions | "Who is the mayor of Berlin?" |
-| `ListSearch` | Queries that seek a particular list of entities | "Professional sports teams in Philadelphia" |
+
 
 All queries are prefixed with the name of the originating benchmark.  `SemSearch_ES`, `INEX-LD`, and `QALD2` each correspond to a separate category; the rest of the queries belong to the `ListSearch` category.
 
