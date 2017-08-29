@@ -5,7 +5,7 @@ An updated version of the collection, *DBpedia-Entity v2*, has been released in 
 It has been published at the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'17), where it received a Best Short Paper Honorable Mention Award.  See the  [paper](http://hasibi.com/files/sigir2017-dbpedia_entity.pdf) and [poster](http://hasibi.com//files/posters/dbpedia-entity.pdf).
 
 
-## <a name="knowledgebase"></a>Knowledge base
+## <a ></a>Knowledge base
 
 The test collection is based on [DBpedia version 2015-10](http://wiki.dbpedia.org/Downloads2015-10), specifically on the English subset.
 We require entities to have both a title and abstract (i.e., `rdfs:label` and `rdfs:comment` predicates)--this effectively  filters out category, redirect, and disambiguation pages. Note that list pages, on the other hand, are retained.  In the end, there are 4.6 million entities, each uniquely identified by its URI.  We use a simplified prefixed format:  `http://dbpedia.org/resource/Albert_Einstein` => `<dbpedia:Albert_Einstein>`.
