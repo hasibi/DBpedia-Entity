@@ -7,11 +7,15 @@ A number of articles has been published based on the DBpedia-Entity collection. 
 
 #### Entity search task:
 
+- Emma J. Gerritse, Faegheh Hasibi, and Arjen P. de Vries. *"Graph-Embedding Empowered Entity Retrieval"*, In Proceedings of the 42nd European Conference on Information Retrieval (ECIR ’20).
+
+- Laura Dietz. *"ENT Rank: Retrieving Entities for Topical Information Needs through Entity-Neighbor-Text Relations"*, In Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '19), 215-224.
+
 - Dario Garigliotti, Faegheh Hasibi, and Krisztian Balog. *"Identifying and Exploiting Target Entity Type Information for Ad Hoc Entity Retrieval"*,  Information Retrieval Journal, 2018. 
 
-- Saeid Balaneshinkordan, Alexander Kotov, Fedor Nikolaev. *"Attentive Neural Architecture for Ad-hoc Structured Document Retrieval"* In Proceedings of the 27th ACM International Conference on Information and Knowledge Management (CIKM'18). 1173-1182.
+- Saeid Balaneshinkordan, Alexander Kotov, Fedor Nikolaev. *"Attentive Neural Architecture for Ad-hoc Structured Document Retrieval"* In Proceedings of the 27th ACM International Conference on Information and Knowledge Management (CIKM '18). 1173-1182.
 
-- Xinshi Lin, Wai Lam, Kwun Ping Lai. *"Entity Retrieval in the Knowledge Graph with Hierarchical Entity Type and Content"*, In Proceedings of the 2018 ACM SIGIR International Conference on Theory of Information Retrieval (ICTIR ’18). 211-214.
+- Xinshi Lin, Wai Lam, Kwun Ping Lai. *"Entity Retrieval in the Knowledge Graph with Hierarchical Entity Type and Content"*, In Proceedings of the 2018 ACM SIGIR International Conference on Theory of Information Retrieval (ICTIR '18). 211-214.
 
 - Xinshi Lin, Wai Lam. *"Entity Retrieval via Type Taxonomy Aware Smoothing"* In Proceedings of the 40th European Conference on Information Retrieval (ECIR ’18). 773-779.
 
